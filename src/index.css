@@ -28,6 +28,17 @@ body {
   transform: none;
 }
 
+/* Gentle floating motion for the hero player card */
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
