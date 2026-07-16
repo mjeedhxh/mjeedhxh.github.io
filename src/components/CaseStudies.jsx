@@ -43,6 +43,7 @@ const projects = [
     ],
     tags: ['UX Research', 'React Native', 'Expo', 'Accessibility (WCAG)'],
     links: [
+      { label: 'Read Case Study', href: '#/midan', primary: true },
       {
         label: 'Figma',
         href: 'https://www.figma.com/design/MgW3g5o5ttX74B320i8R5m/Untitled?node-id=0-1&t=KyJkqiN0QDfqavNn-1',
