@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import CaseStudies from './components/CaseStudies.jsx'
+import Reports from './components/Reports.jsx'
 import Footer from './components/Footer.jsx'
 import MidanCaseStudy from './components/MidanCaseStudy.jsx'
 import KACaseStudy from './components/KACaseStudy.jsx'
@@ -48,6 +49,7 @@ export default function App() {
           <main id="main-content">
             <Hero />
             <CaseStudies />
+            <Reports />
           </main>
           <Footer />
         </>
