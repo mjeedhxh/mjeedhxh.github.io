@@ -1,9 +1,9 @@
 import Reveal from './Reveal.jsx'
 import { ArrowUpRight } from './Icons.jsx'
 
-// Prefix a public asset path with Vite's base URL so it resolves both in local
-// dev ("/") and under the GitHub Pages sub-path ("/MJEED-PORTFOLIO/"). Vite does
-// not rewrite absolute string-literal paths, so we do it explicitly here.
+// Prefix a public asset path with Vite's base URL so it resolves against whatever
+// base the site is served from. Vite does not rewrite absolute string-literal
+// paths, so we do it explicitly here.
 const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
 
 const projects = [
